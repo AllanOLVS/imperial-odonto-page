@@ -16,6 +16,8 @@ export default {
             fontFamily: {
                 display: ['"Cormorant Garamond"', 'serif'],
                 body: ['"Jost"', 'sans-serif'],
+                playfair: ['"Playfair Display"', 'serif'],
+                inter: ['"Inter"', 'sans-serif'],
             },
             colors: {
                 border: "hsl(var(--border))",
@@ -59,6 +61,12 @@ export default {
                     cream: "hsl(var(--imperial-cream))",
                     white: "hsl(var(--imperial-white))",
                     dark: "hsl(var(--imperial-dark))",
+                },
+                booking: {
+                    burgundy: "hsl(var(--booking-burgundy))",
+                    gold: "hsl(var(--booking-gold))",
+                    offwhite: "hsl(var(--booking-offwhite))",
+                    glass: "hsl(var(--booking-glass))",
                 },
                 sidebar: {
                     DEFAULT: "hsl(var(--sidebar-background))",

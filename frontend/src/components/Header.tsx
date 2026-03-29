@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import ImperialLogo from "./ImperialLogo";
 import { Button } from "./ui/button";
 
-const BOOKING_URL = "#agendamento";
+const BOOKING_URL = "/agendamento";
 
 const navLinks = [
     { label: "Início", href: "#inicio" },
@@ -43,10 +44,10 @@ const Header = () => {
                             {link.label}
                         </a>
                     ))}
-                    <Button variant="imperial" size="sm" asChild>
-                        <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    <Button variant="booking-primary" size="sm" asChild>
+                        <Link to={BOOKING_URL}>
                             Agendar Consulta
-                        </a>
+                        </Link>
                     </Button>
                 </nav>
 
@@ -80,10 +81,10 @@ const Header = () => {
                             {link.label}
                         </a>
                     ))}
-                    <Button variant="imperial" size="lg" asChild>
-                        <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    <Button variant="booking-primary" size="lg" asChild>
+                        <Link to={BOOKING_URL}>
                             Agendar Consulta
-                        </a>
+                        </Link>
                     </Button>
                 </nav>
             </div>

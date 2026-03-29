@@ -18,6 +18,8 @@ const buttonVariants = cva(
                 imperial: "bg-imperial-rose text-imperial-white hover:brightness-110 hover:shadow-lg transition-all duration-300 font-body font-medium tracking-wide",
                 "imperial-ghost": "border border-imperial-rose/50 text-imperial-cream hover:bg-imperial-rose/10 transition-all duration-300 font-body font-medium tracking-wide",
                 "imperial-cta": "bg-imperial-rose text-imperial-white hover:brightness-110 hover:shadow-[0_0_30px_rgba(196,144,122,0.3)] transition-all duration-300 font-body font-medium tracking-wide text-base px-8 py-4 h-auto rounded-sm",
+                "booking-primary": "bg-booking-gold text-booking-burgundy hover:bg-booking-gold/90 transition-all duration-300 font-inter font-semibold rounded-full",
+                "booking-secondary": "border border-white/50 bg-transparent text-white hover:bg-white/10 transition-all duration-300 font-inter font-medium rounded-full",
             },
             size: {
                 default: "h-10 px-4 py-2",

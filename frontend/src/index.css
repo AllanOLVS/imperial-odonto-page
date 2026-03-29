@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -52,6 +52,11 @@
         --sidebar-accent-foreground: 20 30% 93%;
         --sidebar-border: 320 25% 36%;
         --sidebar-ring: 14 30% 62%;
+
+        --booking-burgundy: 328 41% 24%;
+        --booking-gold: 39 48% 61%;
+        --booking-offwhite: 30 33% 94%;
+        --booking-glass: 328 41% 24% / 0.6;
     }
 }
 

@@ -1,9 +1,10 @@
 import { Button } from "./ui/button";
 import ImperialLogo from "./ImperialLogo";
 import heroImage from "@/assets/foto-equipe-imperial.jpeg";
+import { Link } from "react-router-dom";
 import { Heart, Cpu, Users } from "lucide-react";
 
-const BOOKING_URL = "#agendamento";
+const BOOKING_URL = "/agendamento";
 
 const Hero = () => {
     return (
@@ -26,10 +27,10 @@ const Hero = () => {
                         </p>
 
                         <div className="mt-10 flex flex-wrap gap-4">
-                            <Button variant="imperial-cta" asChild>
-                                <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                            <Button variant="booking-primary" size="lg" asChild className="px-8 h-14 text-base">
+                                <Link to={BOOKING_URL}>
                                     Agendar Minha Consulta
-                                </a>
+                                </Link>
                             </Button>
                             <Button variant="imperial-ghost" size="lg" asChild>
                                 <a href="#servicos">Conheça Nossos Tratamentos</a>
